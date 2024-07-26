@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from cart.models import CartItem
 from .forms import OrderForm
 from .models import Order, OrderProduct
-from cart.models import Product
+from store.models import Product
 import datetime
 
 # Create your views here.
